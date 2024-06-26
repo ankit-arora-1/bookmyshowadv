@@ -20,7 +20,7 @@ public class UserService {
     public void login(String email, String password) {
         String passwordFromDB = "asdas"; // getting from DB
         BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
-        if(bCryptPasswordEncoder.matches(passwordFromDB, password) {
+        if(bCryptPasswordEncoder.matches(passwordFromDB, password)) {
             return;
         }
     }

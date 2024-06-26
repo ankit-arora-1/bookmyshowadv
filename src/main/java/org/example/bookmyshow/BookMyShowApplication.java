@@ -26,7 +26,7 @@ public class BookMyShowApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         SignUpRequestDto requestDto = new SignUpRequestDto();
-        requestDto.setEmail("vishal@gmail.com");
+        requestDto.setEmail("vishal1@gmail.com");
         requestDto.setPassword("abc123");
 
         userController.signUp(requestDto);
