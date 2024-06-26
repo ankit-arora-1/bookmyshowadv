@@ -3,12 +3,9 @@ package org.example.bookmyshow.dtos;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Getter
 @Setter
-public class BookMovieRequestDto {
-    private List<Long> showSeatsIds;
+public class SignUpResponseDto {
     private Long userId;
-    private Long showId;
+    private ResponseStatus responseStatus;
 }
